@@ -1,0 +1,826 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="web:war exploded2" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5e9cfb2c-38c0-47d1-96c8-3b6b50fd77a2" name="Default Changelist" comment="1">
+      <change afterPath="$PROJECT_DIR$/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/web_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/web_war_exploded2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/8cd4d255-896c-4a40-85fb-cb22dd7f02db.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/8cd4d255-896c-4a40-85fb-cb22dd7f02db/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_5_1_24_bin.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/servlet_api.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/dao.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/java/com/github/smthyellow/project0/dao/DataSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/java/com/github/smthyellow/project0/dao/user/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/java/com/github/smthyellow/project0/dao/user/UserDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/CHANGELOG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/LICENSE-EPL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/LICENSE-LGPL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/README" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/RELEASE_NOTES-c3p0-0.9.2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/RELEASE_NOTES-c3p0-0.9.5.1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/TODO" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs-oracle-thin/allclasses-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs-oracle-thin/allclasses-noframe.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs-oracle-thin/com/mchange/v2/c3p0/dbms/OracleUtils.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs-oracle-thin/com/mchange/v2/c3p0/dbms/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs-oracle-thin/com/mchange/v2/c3p0/dbms/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs-oracle-thin/com/mchange/v2/c3p0/dbms/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs-oracle-thin/constant-values.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs-oracle-thin/deprecated-list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs-oracle-thin/help-doc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs-oracle-thin/index-all.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs-oracle-thin/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs-oracle-thin/overview-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs-oracle-thin/package-list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs-oracle-thin/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs-oracle-thin/stylesheet.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/allclasses-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/allclasses-noframe.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/AbstractComboPooledDataSource.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/AbstractConnectionCustomizer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/AbstractConnectionTester.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/C3P0ProxyConnection.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/C3P0ProxyStatement.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/C3P0Registry.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/ComboPooledDataSource.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/ConnectionCustomizer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/ConnectionTester.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/DataSources.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/DriverManagerDataSource.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/DriverManagerDataSourceFactory.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/FullQueryConnectionTester.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/JndiRefConnectionPoolDataSource.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/PoolBackedDataSource.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/PoolBackedDataSourceFactory.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/PoolConfig.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/PooledDataSource.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/QueryConnectionTester.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/SQLWarnings.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/UnifiedConnectionTester.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/WrapperConnectionPoolDataSource.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/cfg/C3P0Config.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/cfg/C3P0ConfigFinder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/cfg/C3P0ConfigUtils.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/cfg/C3P0ConfigXmlUtils.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/cfg/DefaultC3P0ConfigFinder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/cfg/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/cfg/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/cfg/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/codegen/BeangenDataSourceGenerator.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/codegen/C3P0ImplUtilsParentLoggerGeneratorExtension.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/codegen/JdbcProxyGenerator.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/codegen/UnsupportedParentLoggerGeneratorExtension.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/codegen/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/codegen/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/codegen/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/debug/AfterCloseLoggingComboPooledDataSource.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/debug/AfterCloseLoggingConnectionWrapper.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/debug/CloseLoggingComboPooledDataSource.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/debug/CloseLoggingConnectionWrapper.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/debug/ConstructionLoggingComboPooledDataSource.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/debug/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/debug/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/debug/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/example/InitSqlConnectionCustomizer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/example/IsValidOnlyConnectionTester30.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/example/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/example/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/example/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/filter/FilterDataSource.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/filter/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/filter/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/filter/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/impl/AbstractIdentityTokenized.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/impl/AbstractPoolBackedDataSource.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/impl/AuthMaskingProperties.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/impl/C3P0Defaults.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/impl/C3P0ImplUtils.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/impl/C3P0JavaBeanObjectFactory.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/impl/C3P0PooledConnection.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/impl/C3P0PooledConnectionPool.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/impl/C3P0PooledConnectionPoolManager.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/impl/DbAuth.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/impl/DefaultConnectionTester.QuerylessTestRunner.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/impl/DefaultConnectionTester.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/impl/DriverManagerDataSourceBase.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/impl/IdentityTokenResolvable.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/impl/IdentityTokenized.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/impl/IdentityTokenizedCoalesceChecker.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/impl/JndiRefDataSourceBase.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/impl/NewPooledConnection.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/impl/NewProxyCallableStatement.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/impl/NewProxyConnection.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/impl/NewProxyDatabaseMetaData.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/impl/NewProxyPreparedStatement.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/impl/NewProxyResultSet.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/impl/NewProxyStatement.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/impl/PoolBackedDataSourceBase.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/impl/ProxyResultSetDetachable.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/impl/WrapperConnectionPoolDataSourceBase.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/impl/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/impl/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/impl/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/jboss/C3P0PooledDataSource.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/jboss/C3P0PooledDataSourceMBean.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/jboss/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/jboss/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/jboss/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/management/ActiveManagementCoordinator.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/management/C3P0RegistryManager.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/management/C3P0RegistryManagerMBean.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/management/DynamicPooledDataSourceManagerMBean.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/management/ManagementCoordinator.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/management/NullManagementCoordinator.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/management/PooledDataSourceManager.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/management/PooledDataSourceManagerMBean.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/management/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/management/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/management/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/mbean/C3P0PooledDataSource.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/mbean/C3P0PooledDataSourceMBean.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/mbean/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/mbean/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/mbean/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/servlet/C3P0StatusServlet.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/servlet/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/servlet/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/servlet/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/stmt/DoubleMaxStatementCache.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/stmt/GlobalMaxOnlyStatementCache.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/stmt/GooGooStatementCache.ConnectionStatementManager.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/stmt/GooGooStatementCache.Deathmarch.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/stmt/GooGooStatementCache.DeathmarchConnectionStatementManager.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/stmt/GooGooStatementCache.SimpleConnectionStatementManager.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/stmt/GooGooStatementCache.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/stmt/PerConnectionMaxOnlyStatementCache.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/stmt/StatementCache.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/stmt/StatementCacheBenchmark.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/stmt/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/stmt/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/stmt/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/subst/C3P0Substitutions.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/subst/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/subst/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/subst/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/test/AlwaysFailConnectionTester.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/test/AlwaysFailDataSource.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/test/C3P0BenchmarkApp.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/test/ConnectionDispersionTest.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/test/FreezableDriverManagerDataSource.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/test/InterruptedBatchTest.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/test/JavaBeanRefTest.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/test/JndiBindTest.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/test/JndiLookupTest.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/test/ListTablesTest.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/test/LoadPoolBackedDataSource.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/test/OneThreadRepeatedInsertOrQueryTest.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/test/PSLoadPoolBackedDataSource.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/test/ProxyWrappersTest.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/test/RawConnectionOpTest.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/test/StatsTest.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/test/TestConnectionCustomizer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/test/TestRefSerStuff.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/test/junit/C3P0JUnitTestCaseBase.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/test/junit/ConnectionPropertiesResetJUnitTestCase.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/test/junit/MarshallUnmarshallDataSourcesJUnitTestCase.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/test/junit/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/test/junit/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/test/junit/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/test/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/test/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/test/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/util/CloseReportingConnectionWrapper.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/util/ConnectionEventSupport.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/util/IsValidOnlyConnectionTester.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/util/StatementEventSupport.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/util/TestUtils.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/util/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/util/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/util/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/resourcepool/BasicResourcePoolFactory.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/resourcepool/CannotAcquireResourceException.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/resourcepool/EventSupportingResourcePool.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/resourcepool/NoGoodResourcesException.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/resourcepool/ResourcePool.Manager.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/resourcepool/ResourcePool.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/resourcepool/ResourcePoolEvent.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/resourcepool/ResourcePoolEventSupport.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/resourcepool/ResourcePoolException.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/resourcepool/ResourcePoolFactory.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/resourcepool/ResourcePoolListener.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/resourcepool/TimeoutException.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/resourcepool/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/resourcepool/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/resourcepool/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/constant-values.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/deprecated-list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/help-doc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/index-all.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/overview-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/overview-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/overview-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/package-list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/serialized-form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/apidocs/stylesheet.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/arrow_sm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/doc/old/doc-outtakes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/examples/JndiBindDataSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/examples/UseJndiDataSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/examples/UsePoolBackedDataSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/examples/UseUnpooledDataSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/examples/c3p0-service.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/lib/c3p0-0.9.5.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/lib/c3p0-oracle-thin-extras-0.9.5.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/lib/mchange-commons-java-0.2.11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/src/README" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/src/c3p0-0.9.5.2-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/c3p0-0.9.5.2/src/mchange-commons-java-0.2.11-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/project0database.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/CHANGELOG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/LICENSE-EPL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/LICENSE-LGPL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/README" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/RELEASE_NOTES-c3p0-0.9.2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/RELEASE_NOTES-c3p0-0.9.5.1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/TODO" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs-oracle-thin/allclasses-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs-oracle-thin/allclasses-noframe.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs-oracle-thin/com/mchange/v2/c3p0/dbms/OracleUtils.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs-oracle-thin/com/mchange/v2/c3p0/dbms/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs-oracle-thin/com/mchange/v2/c3p0/dbms/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs-oracle-thin/com/mchange/v2/c3p0/dbms/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs-oracle-thin/constant-values.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs-oracle-thin/deprecated-list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs-oracle-thin/help-doc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs-oracle-thin/index-all.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs-oracle-thin/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs-oracle-thin/overview-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs-oracle-thin/package-list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs-oracle-thin/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs-oracle-thin/stylesheet.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/allclasses-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/allclasses-noframe.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/AbstractComboPooledDataSource.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/AbstractConnectionCustomizer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/AbstractConnectionTester.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/C3P0ProxyConnection.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/C3P0ProxyStatement.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/C3P0Registry.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/ComboPooledDataSource.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/ConnectionCustomizer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/ConnectionTester.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/DataSources.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/DriverManagerDataSource.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/DriverManagerDataSourceFactory.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/FullQueryConnectionTester.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/JndiRefConnectionPoolDataSource.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/PoolBackedDataSource.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/PoolBackedDataSourceFactory.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/PoolConfig.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/PooledDataSource.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/QueryConnectionTester.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/SQLWarnings.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/UnifiedConnectionTester.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/WrapperConnectionPoolDataSource.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/cfg/C3P0Config.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/cfg/C3P0ConfigFinder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/cfg/C3P0ConfigUtils.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/cfg/C3P0ConfigXmlUtils.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/cfg/DefaultC3P0ConfigFinder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/cfg/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/cfg/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/cfg/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/codegen/BeangenDataSourceGenerator.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/codegen/C3P0ImplUtilsParentLoggerGeneratorExtension.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/codegen/JdbcProxyGenerator.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/codegen/UnsupportedParentLoggerGeneratorExtension.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/codegen/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/codegen/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/codegen/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/debug/AfterCloseLoggingComboPooledDataSource.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/debug/AfterCloseLoggingConnectionWrapper.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/debug/CloseLoggingComboPooledDataSource.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/debug/CloseLoggingConnectionWrapper.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/debug/ConstructionLoggingComboPooledDataSource.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/debug/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/debug/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/debug/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/example/InitSqlConnectionCustomizer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/example/IsValidOnlyConnectionTester30.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/example/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/example/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/example/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/filter/FilterDataSource.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/filter/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/filter/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/filter/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/impl/AbstractIdentityTokenized.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/impl/AbstractPoolBackedDataSource.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/impl/AuthMaskingProperties.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/impl/C3P0Defaults.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/impl/C3P0ImplUtils.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/impl/C3P0JavaBeanObjectFactory.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/impl/C3P0PooledConnection.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/impl/C3P0PooledConnectionPool.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/impl/C3P0PooledConnectionPoolManager.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/impl/DbAuth.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/impl/DefaultConnectionTester.QuerylessTestRunner.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/impl/DefaultConnectionTester.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/impl/DriverManagerDataSourceBase.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/impl/IdentityTokenResolvable.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/impl/IdentityTokenized.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/impl/IdentityTokenizedCoalesceChecker.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/impl/JndiRefDataSourceBase.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/impl/NewPooledConnection.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/impl/NewProxyCallableStatement.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/impl/NewProxyConnection.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/impl/NewProxyDatabaseMetaData.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/impl/NewProxyPreparedStatement.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/impl/NewProxyResultSet.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/impl/NewProxyStatement.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/impl/PoolBackedDataSourceBase.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/impl/ProxyResultSetDetachable.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/impl/WrapperConnectionPoolDataSourceBase.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/impl/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/impl/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/impl/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/jboss/C3P0PooledDataSource.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/jboss/C3P0PooledDataSourceMBean.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/jboss/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/jboss/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/jboss/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/management/ActiveManagementCoordinator.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/management/C3P0RegistryManager.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/management/C3P0RegistryManagerMBean.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/management/DynamicPooledDataSourceManagerMBean.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/management/ManagementCoordinator.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/management/NullManagementCoordinator.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/management/PooledDataSourceManager.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/management/PooledDataSourceManagerMBean.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/management/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/management/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/management/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/mbean/C3P0PooledDataSource.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/mbean/C3P0PooledDataSourceMBean.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/mbean/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/mbean/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/mbean/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/servlet/C3P0StatusServlet.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/servlet/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/servlet/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/servlet/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/stmt/DoubleMaxStatementCache.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/stmt/GlobalMaxOnlyStatementCache.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/stmt/GooGooStatementCache.ConnectionStatementManager.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/stmt/GooGooStatementCache.Deathmarch.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/stmt/GooGooStatementCache.DeathmarchConnectionStatementManager.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/stmt/GooGooStatementCache.SimpleConnectionStatementManager.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/stmt/GooGooStatementCache.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/stmt/PerConnectionMaxOnlyStatementCache.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/stmt/StatementCache.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/stmt/StatementCacheBenchmark.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/stmt/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/stmt/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/stmt/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/subst/C3P0Substitutions.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/subst/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/subst/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/subst/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/test/AlwaysFailConnectionTester.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/test/AlwaysFailDataSource.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/test/C3P0BenchmarkApp.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/test/ConnectionDispersionTest.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/test/FreezableDriverManagerDataSource.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/test/InterruptedBatchTest.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/test/JavaBeanRefTest.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/test/JndiBindTest.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/test/JndiLookupTest.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/test/ListTablesTest.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/test/LoadPoolBackedDataSource.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/test/OneThreadRepeatedInsertOrQueryTest.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/test/PSLoadPoolBackedDataSource.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/test/ProxyWrappersTest.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/test/RawConnectionOpTest.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/test/StatsTest.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/test/TestConnectionCustomizer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/test/TestRefSerStuff.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/test/junit/C3P0JUnitTestCaseBase.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/test/junit/ConnectionPropertiesResetJUnitTestCase.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/test/junit/MarshallUnmarshallDataSourcesJUnitTestCase.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/test/junit/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/test/junit/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/test/junit/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/test/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/test/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/test/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/util/CloseReportingConnectionWrapper.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/util/ConnectionEventSupport.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/util/IsValidOnlyConnectionTester.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/util/StatementEventSupport.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/util/TestUtils.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/util/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/util/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/c3p0/util/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/resourcepool/BasicResourcePoolFactory.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/resourcepool/CannotAcquireResourceException.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/resourcepool/EventSupportingResourcePool.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/resourcepool/NoGoodResourcesException.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/resourcepool/ResourcePool.Manager.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/resourcepool/ResourcePool.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/resourcepool/ResourcePoolEvent.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/resourcepool/ResourcePoolEventSupport.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/resourcepool/ResourcePoolException.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/resourcepool/ResourcePoolFactory.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/resourcepool/ResourcePoolListener.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/resourcepool/TimeoutException.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/resourcepool/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/resourcepool/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/com/mchange/v2/resourcepool/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/constant-values.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/deprecated-list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/help-doc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/index-all.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/overview-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/overview-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/overview-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/package-list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/serialized-form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/apidocs/stylesheet.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/arrow_sm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/doc/old/doc-outtakes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/examples/JndiBindDataSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/examples/UseJndiDataSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/examples/UsePoolBackedDataSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/examples/UseUnpooledDataSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/examples/c3p0-service.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/lib/c3p0-0.9.5.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/lib/c3p0-oracle-thin-extras-0.9.5.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/lib/mchange-commons-java-0.2.11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/src/README" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/src/c3p0-0.9.5.2-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/c3p0-0.9.5.2/src/mchange-commons-java-0.2.11-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/com/github/smthyellow/project0/dao/DataSource$SingletonHolder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/com/github/smthyellow/project0/dao/DataSource.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/com/github/smthyellow/project0/dao/user/UserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/com/github/smthyellow/project0/dao/user/UserDaoImpl$Singleton.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/com/github/smthyellow/project0/dao/user/UserDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/project0database.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/dao-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/model.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/github/smthyellow/project0/model/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/github/smthyellow/project0/model/Card.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/github/smthyellow/project0/model/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/github/smthyellow/project0/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/target/classes/com/github/smthyellow/project0/model/Account.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/target/classes/com/github/smthyellow/project0/model/Card.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/target/classes/com/github/smthyellow/project0/model/Role.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/target/classes/com/github/smthyellow/project0/model/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/target/model-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/META-INF/web.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/com/github/smthyellow/project0/model/Account.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/com/github/smthyellow/project0/model/Card.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/com/github/smthyellow/project0/model/Role.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/com/github/smthyellow/project0/model/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/com/github/smthyellow/project0/service/user/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/com/github/smthyellow/project0/service/user/UserServiceImpl$Singleton.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/com/github/smthyellow/project0/service/user/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/com/github/smthyellow/project0/web/WebUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/com/github/smthyellow/project0/web/servlet/RegistrationServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/registration.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded2/WEB-INF/classes/META-INF/web.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded2/WEB-INF/classes/com/github/smthyellow/project0/model/Account.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded2/WEB-INF/classes/com/github/smthyellow/project0/model/Card.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded2/WEB-INF/classes/com/github/smthyellow/project0/model/Role.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded2/WEB-INF/classes/com/github/smthyellow/project0/model/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded2/WEB-INF/classes/com/github/smthyellow/project0/service/user/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded2/WEB-INF/classes/com/github/smthyellow/project0/service/user/UserServiceImpl$Singleton.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded2/WEB-INF/classes/com/github/smthyellow/project0/service/user/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded2/WEB-INF/classes/com/github/smthyellow/project0/web/WebUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded2/WEB-INF/classes/com/github/smthyellow/project0/web/servlet/RegistrationServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded2/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded2/registration.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/dao/META-INF/dao.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/service/META-INF/service.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/web/META-INF/web.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/web/com/github/smthyellow/project0/web/WebUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/web/com/github/smthyellow/project0/web/servlet/RegistrationServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project0.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/github/smthyellow/project0/service/user/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/github/smthyellow/project0/service/user/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/target/classes/com/github/smthyellow/project0/service/user/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/target/classes/com/github/smthyellow/project0/service/user/UserServiceImpl$Singleton.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/target/classes/com/github/smthyellow/project0/service/user/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/target/service-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/github/smthyellow/project0/web/WebUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/github/smthyellow/project0/web/servlet/RegistrationServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/target/classes/com/github/smthyellow/project0/web/WebUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/target/classes/com/github/smthyellow/project0/web/servlet/RegistrationServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web/ex/personalPage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web/ex/registration.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web/registration.jsp" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="Jsp File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1RvtnR91MvY8eaAOVMeDK5kqeH5" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="findjar.last.used.dir" value="/usr/lib" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../servlet-example" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web/web" />
+      <recent name="$PROJECT_DIR$/web/" />
+      <recent name="$PROJECT_DIR$/web/web/ex" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/dao/src/main/resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 9.0.24" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.24" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="web:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/web_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_project0" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="40575" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="web:war exploded2" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="allServicesViewState">
+      <serviceView>
+        <treeState>
+          <expand />
+          <select />
+        </treeState>
+      </serviceView>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5e9cfb2c-38c0-47d1-96c8-3b6b50fd77a2" name="Default Changelist" comment="" />
+      <created>1570559564125</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1570559564125</updated>
+      <workItem from="1570559568082" duration="7006000" />
+      <workItem from="1570641712767" duration="1497000" />
+      <workItem from="1570650596428" duration="5649000" />
+      <workItem from="1570736177799" duration="1215000" />
+      <workItem from="1570799278612" duration="30000" />
+      <workItem from="1570805062285" duration="742000" />
+      <workItem from="1570808239312" duration="4347000" />
+      <workItem from="1570947556170" duration="740000" />
+      <workItem from="1570949335683" duration="1752000" />
+      <workItem from="1570951164736" duration="1670000" />
+      <workItem from="1570956660000" duration="893000" />
+      <workItem from="1570957739786" duration="601000" />
+      <workItem from="1570964829254" duration="1404000" />
+      <workItem from="1570966754586" duration="1722000" />
+      <workItem from="1570968575527" duration="1465000" />
+      <workItem from="1570970401693" duration="1739000" />
+      <workItem from="1570972358338" duration="1744000" />
+      <workItem from="1570974213531" duration="1756000" />
+      <workItem from="1570979728533" duration="1706000" />
+      <workItem from="1570981616629" duration="1750000" />
+      <workItem from="1570983783951" duration="1716000" />
+      <workItem from="1570986030566" duration="597000" />
+      <workItem from="1570988934748" duration="1777000" />
+      <workItem from="1570991374218" duration="1198000" />
+      <workItem from="1570993448360" duration="372000" />
+      <workItem from="1570994689846" duration="1612000" />
+      <workItem from="1570996388065" duration="1699000" />
+      <workItem from="1570998424217" duration="1724000" />
+      <workItem from="1571031285539" duration="1634000" />
+      <workItem from="1571033110695" duration="1489000" />
+      <workItem from="1571035131626" duration="66000" />
+      <workItem from="1571035566092" duration="1687000" />
+      <workItem from="1571037404722" duration="1089000" />
+      <workItem from="1571039411019" duration="1316000" />
+      <workItem from="1571041501083" duration="1708000" />
+      <workItem from="1571043442875" duration="1711000" />
+      <workItem from="1571045375894" duration="1723000" />
+      <workItem from="1571047300064" duration="1724000" />
+      <workItem from="1571049117931" duration="1729000" />
+      <workItem from="1571051607357" duration="1727000" />
+      <workItem from="1571054155400" duration="1457000" />
+      <workItem from="1571055967454" duration="1736000" />
+      <workItem from="1571057934188" duration="1690000" />
+      <workItem from="1571060487802" duration="1143000" />
+      <workItem from="1571068604731" duration="1708000" />
+      <workItem from="1571070501892" duration="1255000" />
+      <workItem from="1571074774660" duration="1745000" />
+      <workItem from="1571076750969" duration="1705000" />
+      <workItem from="1571078720969" duration="1707000" />
+      <workItem from="1571080503855" duration="1131000" />
+      <workItem from="1571135260980" duration="1174000" />
+      <workItem from="1571137282540" duration="1212000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1" />
+    <option name="LAST_COMMIT_MESSAGE" value="1" />
+  </component>
+</project>

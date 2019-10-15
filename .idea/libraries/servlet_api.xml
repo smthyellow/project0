@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="servlet-api">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/apps/apache-tomcat-9.0.24/lib/servlet-api.jar!/" />
+      <root url="jar://$USER_HOME$/apps/apache-tomcat-9.0.24/lib/c3p0-0.9.2.1.jar!/" />
+      <root url="jar://$USER_HOME$/apps/apache-tomcat-9.0.24/lib/mchange-commons-java-0.2.3.4.jar!/" />
+      <root url="jar://$USER_HOME$/apps/apache-tomcat-9.0.24/lib/mysql-connector-java-5.1.24-bin.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
